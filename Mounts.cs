@@ -9,7 +9,7 @@ using TShockAPI.DB;
 
 namespace Mounts
 {
-    [ApiVersion(1, 21)]
+    [ApiVersion(1, 22)]
     public class Mounts : TerrariaPlugin
     {
 
@@ -41,7 +41,7 @@ namespace Mounts
         {
             get
             {
-                return new Version(1, 1, 0);
+                return new Version(1, 1, 1);
             }
         }
 
